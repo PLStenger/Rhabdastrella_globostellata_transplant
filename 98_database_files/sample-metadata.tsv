@@ -1,20 +1,19 @@
-#SampleID	Dataset	FullName	Site	Condition
-NC03_03_b	3	NC03_03_b_Noumea_ND	Noumea	ND
-NC13_129Dd_a	5	NC13_129Dd_a_Noumea_male	Noumea	male
-NC13_141_d	8	NC13_141_d_Poya_male	Poya	male
-NC13_142_e	9	NC13_142_e_Poya_male	Poya	male
-NC13_143_f	10	NC13_143_f_Poya_male	Poya	male
-NC13_130_a	11	NC13_130_a_Noumea_Femelle	Noumea	Femelle
-NC13_132_b	12	NC13_132_b_Noumea_Femelle	Noumea	Femelle
-NC13_134_c	13	NC13_134_c_Poya_Femelle	Poya	Femelle
-NC13_135_d	14	NC13_135_d_Poya_Femelle	Poya	Femelle
-NC13_136_e	15	NC13_136_e_Poya_Femelle	Poya	Femelle
-NC13_137_f	16	NC13_137_f_Poya_Femelle	Poya	Femelle
-NC13_140_g	17	NC13_140_g_Poya_Femelle	Poya	Femelle
-NC13_144_h	18	NC13_144_h_Poya_femelle	Poya	femelle
-NC13_131_i	19	NC13_131_i_Noumea_ND	Noumea	ND
-NC19_200_a	20	NC19_200_a_Voh_Femelle	Voh	Femelle
-NC19_201_b	21	NC19_201_b_Voh_Femelle	Voh	Femelle
-NC19_202_c	22	NC19_202_c_Voh_Femelle	Voh	Femelle
-NC19_203_d	23	NC19_203_d_Voh_Femelle	Voh	Femelle
-NC19_204_e	24	NC19_204_e_Voh_Femelle	Voh	Femelle
+#SampleID	Dataset	FullName	Location	Condition
+RG_BOU_01	1	RG_BOU_01	Bourake	Porifera
+RG_BOU_02	2	RG_BOU_02	Bourake	Porifera
+RG_BOU_03	3	RG_BOU_03	Bourake	Porifera
+SD_BOU_01	4	SD_BOU_01	Bourake	Sediment
+SD_BOU_02	5	SD_BOU_02	Bourake	Sediment
+SD_BOU_03	6	SD_BOU_03	Bourake	Sediment
+RG_BDC_01	7	RG_BDC_01	Lemon bay	Porifera
+RG_BDC_02	8	RG_BDC_02	Lemon bay	Porifera
+RG_BDC_03	9	RG_BDC_03	Lemon bay	Porifera
+SD_BDC_01	10	SD_BDC_01	Lemon bay	Sediment
+SD_BDC_02	11	SD_BDC_02	Lemon bay	Sediment
+SD_BDC_03	12	SD_BDC_03	Lemon bay	Sediment
+SW_BDC_01	13	SW_BDC_01	Lemon bay	Seawater
+SW_BDC_02	14	SW_BDC_02	Lemon bay	Seawater
+SW_BDC_03	15	SW_BDC_03	Lemon bay	Seawater
+RG_YAT_01	16	RG_YAT_01	Yate	Porifera
+RG_YAT_02	17	RG_YAT_02	Yate	Porifera
+RG_YAT_03	18	RG_YAT_03	Yate	Porifera
