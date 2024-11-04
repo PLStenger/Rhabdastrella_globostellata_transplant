@@ -146,10 +146,17 @@ cp /home/fungi/Mayotte_microorganism_colonisation/98_database_files/Silva-v138-f
 # From Clarisse and from bioinformatics <bioinformatics@microsynth.ch>
 # The sequences for the V34 primers were:
 # 341F    CCTACGGGNGGCWGCAG       805R    GACTACHVGGGTATCTAATCC
-qiime feature-classifier extract-reads --i-sequences taxonomy/16S/DataSeq.qza \
-        --p-f-primer 'CCTACGGGNGGCWGCAG' \
-        --p-r-primer 'GACTACHVGGGTATCTAATCC' \
-        --o-reads taxonomy/16S/RefSeq.qza 
+#qiime feature-classifier extract-reads --i-sequences taxonomy/16S/DataSeq.qza \
+#        --p-f-primer 'CCTACGGGNGGCWGCAG' \
+#        --p-r-primer 'GACTACHVGGGTATCTAATCC' \
+#        --o-reads taxonomy/16S/RefSeq.qza 
+
+
+# Here for V1V3 --> 27F 'GTGCCAGCMGCCGCGGTAA' & reverse: GTNTTACNGCGGCKGCTG # 534r
+qiime feature-classifier extract-reads --i-sequences taxonomy/DataSeq.qza \
+        --p-f-primer 'GTGCCAGCMGCCGCGGTAA' \
+        --p-r-primer 'GTNTTACNGCGGCKGCTG' \
+        --o-reads taxonomy/RefSeq.qza         
 
 
 # Aim: Create a scikit-learn naive_bayes classifier for reads
