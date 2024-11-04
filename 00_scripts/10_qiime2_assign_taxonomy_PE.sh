@@ -134,10 +134,10 @@ cp /home/fungi/Mayotte_microorganism_colonisation/98_database_files/Silva-v138-f
 # Available: Pre-trained classifier of V3-V4 (341F, 805R) region with gg_99
 
 # 16S : V3/V4 : V3V4 (amplified with primers 341F–805R)
-###qiime feature-classifier extract-reads --i-sequences taxonomy/DataSeq.qza \
+###qiime feature-classifier extract-reads --i-sequences taxonomy/16S/DataSeq.qza \
 ###        --p-f-primer 'CCTACGGGNGGCWGCAG' \
 ###        --p-r-primer 'GACTACHVGGGTATCTAATCC' \
-###        --o-reads taxonomy/RefSeq.qza 
+###        --o-reads taxonomy/16S/RefSeq.qza 
 ###
 
 # According ADNiD: Caporaso et al. (1), 515f Original and 806r Original
@@ -153,10 +153,10 @@ cp /home/fungi/Mayotte_microorganism_colonisation/98_database_files/Silva-v138-f
 
 
 # Here for V1V3 --> 27F 'GTGCCAGCMGCCGCGGTAA' & reverse: GTNTTACNGCGGCKGCTG # 534r
-qiime feature-classifier extract-reads --i-sequences taxonomy/DataSeq.qza \
+qiime feature-classifier extract-reads --i-sequences taxonomy/16S/DataSeq.qza \
         --p-f-primer 'GTGCCAGCMGCCGCGGTAA' \
         --p-r-primer 'GTNTTACNGCGGCKGCTG' \
-        --o-reads taxonomy/RefSeq.qza         
+        --o-reads taxonomy/16S/RefSeq.qza         
 
 
 # Aim: Create a scikit-learn naive_bayes classifier for reads
