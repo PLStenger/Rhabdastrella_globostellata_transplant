@@ -223,12 +223,12 @@ qiime taxa barplot \
 
 qiime tools export --input-path taxonomy/16S/Classifier.qza --output-path export/taxonomy/16S/Classifier
 qiime tools export --input-path taxonomy/16S/RefSeq.qza --output-path export/taxonomy/16S/RefSeq
-qiime tools export --input-path taxonomy/16S/16SDataSeq.qza --output-path export/taxonomy/16S/16SDataSeq
+qiime tools export --input-path taxonomy/16S/DataSeq.qza --output-path export/taxonomy/16S/16SDataSeq
 qiime tools export --input-path taxonomy/16S/RefTaxo.qza --output-path export/taxonomy/16S/RefTaxo
   
-qiime tools export --input-path taxonomy/16S/16Staxa-bar-plots_reads-per-batch_RarRepSeq.qzv --output-path export/taxonomy/16S/16Staxa-bar-plots_reads-per-batch_RarRepSeq
-qiime tools export --input-path taxonomy/16S/16Staxa-bar-plots_reads-per-batch_ConRepSeq.qzv --output-path export/taxonomy/16S/16Staxa-bar-plots_reads-per-batch_ConRepSeq
-qiime tools export --input-path taxonomy/16S/16Staxa-bar-plots_reads-per-batch_RepSeq.qzv --output-path export/taxonomy/16S/16Staxa-bar-plots_reads-per-batch_RepSeq
+qiime tools export --input-path taxonomy/16S/taxa-bar-plots_reads-per-batch_RarRepSeq.qzv --output-path export/taxonomy/16S/taxa-bar-plots_reads-per-batch_RarRepSeq
+qiime tools export --input-path taxonomy/16S/taxa-bar-plots_reads-per-batch_ConRepSeq.qzv --output-path export/taxonomy/16S/taxa-bar-plots_reads-per-batch_ConRepSeq
+qiime tools export --input-path taxonomy/16S/taxa-bar-plots_reads-per-batch_RepSeq.qzv --output-path export/taxonomy/16S/taxa-bar-plots_reads-per-batch_RepSeq
 
 qiime tools export --input-path taxonomy/16S/taxonomy_reads-per-batch_RepSeq.qzv --output-path export/taxonomy/16S/taxonomy_reads-per-batch_RepSeq_visual
 qiime tools export --input-path taxonomy/16S/taxonomy_reads-per-batch_ConRepSeq.qzv --output-path export/taxonomy/16S/taxonomy_reads-per-batch_ConRepSeq_visual
