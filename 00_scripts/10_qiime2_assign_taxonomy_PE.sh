@@ -152,10 +152,13 @@ cp /home/fungi/Mayotte_microorganism_colonisation/98_database_files/Silva-v138-f
 #        --o-reads taxonomy/16S/RefSeq.qza 
 
 
-# Here for V1V3 --> 27F 'GTGCCAGCMGCCGCGGTAA' & reverse: GTNTTACNGCGGCKGCTG # 534r
+# Here for V1V3
+# V1-3 primers: 27F AGAGTTTGATCCTGGCTCAG and 534R ATTACCGCGGCTGCTGG. 
+# From https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4504704/
+
 qiime feature-classifier extract-reads --i-sequences taxonomy/16S/DataSeq.qza \
-        --p-f-primer 'GTGCCAGCMGCCGCGGTAA' \
-        --p-r-primer 'GTNTTACNGCGGCKGCTG' \
+        --p-f-primer 'AGAGTTTGATCCTGGCTCAG' \
+        --p-r-primer 'ATTACCGCGGCTGCTGG' \
         --o-reads taxonomy/16S/RefSeq.qza         
 
 
